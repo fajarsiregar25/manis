@@ -102,7 +102,7 @@ if ($register == false)
             pengen:
             $claim = cekvocer($verif);
             if ($claim == false ) {
-                echo "\033SILAHKAN LOGIN DI AKUN CUSTOMER SEMOGA DAPAT VOUCHER/ TERIMAKASIH SEMOGA DENI IRAWAN ST DAN KELUARGA SEHAT SELALU DAN DIMURAHKAN REZEKINYA BY DENI IRAWAN ST YANG MANIS DAN BAIK HATI\n";
+                echo "\033 SILAHKAN LOGIN DI AKUN CUSTOMER SEMOGA DAPAT VOUCHER/ TERIMAKASIH SEMOGA DENI IRAWAN ST DAN KELUARGA SEHAT SELALU DAN DIMURAHKAN REZEKINYA BY DENI IRAWAN ST YANG MANIS DAN BAIK HATI\n";
             }
             else{
                 echo "\e[92m[+] ".$claim."\n";
