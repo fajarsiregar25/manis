@@ -2,17 +2,16 @@
 
 function request($url, $token = null, $data = null, $pin = null){
 $header[] = "Host: api.gojekapi.com";
-$header[] = "User-Agent: okhttp/3.46.1";
+$header[] = "User-Agent: okhttp/3.10.0";
 $header[] = "Accept: application/json";
 $header[] = "Accept-Language: en-ID";
 $header[] = "Content-Type: application/json; charset=UTF-8";
-$header[] = "X-AppVersion: 3.46.1";
+$header[] = "X-AppVersion: 3.30.2";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
-$header[] = "X-User-Locale: en-ID";
-$header[] = "X-Location: -7.9667748,112.6327817
-";
-$header[] = "X-Location-Accuracy: 5.0";
+$header[] = "X-User-Locale: en_ID";
+$header[] = "X-Location: -6.246265,106.690718";
+$header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
     endif;
@@ -150,7 +149,7 @@ function verif($otp, $token)
     }
 function claim($token)
     {
-    $data = '{"promo_code":"GOFOOD021120A"}';    
+    $data = '{"promo_code":"GOFOODBOBA07"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -164,7 +163,7 @@ function claim($token)
     }
     function claim1($token)
     {
-    $data = '{"promo_code":"GOFOOD21120A"}';    
+    $data = '{"promo_code":"GOFOODBOBA10"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -178,7 +177,7 @@ function claim($token)
     }
     function claim2($token)
     {
-    $data = '{"promo_code":"GOFOOD021120A"}';    
+    $data = '{"promo_code":"GOFOODBOBA19"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -192,7 +191,7 @@ function claim($token)
     }
      function ride($token)
     {
-    $data = '{"promo_code":"GOFOOD021120A"}';    
+    $data = '{"promo_code":"COBAINGOJEK"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -206,7 +205,7 @@ function claim($token)
     }
      function cekvocer($token)
     {
-    $data = '{"promo_code":"GOFOOD021120A"}';    
+    $data = '{"promo_code":"AYOCOBAGOJEK"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -220,7 +219,7 @@ function claim($token)
     }
      function pengen($token)
     {
-    $data = '{"promo_code":"GOFOOD021120A"}';    
+    $data = '{"promo_code":"JAJANPAKEGOPAY"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
