@@ -10,7 +10,7 @@ Step By Step Command Line On Termux :
 3. pkg install git
 4. git clone https://github.com/deniirawan2502/manis
 5. cd manis
-6. php voucher.php
+6. php devin.php
 7. masukin nomor hp
 8. masukin kode verifikasi(OTP)
 9. pilih kode voucher
