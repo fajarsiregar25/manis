@@ -18,7 +18,7 @@ echo " ===========================\n";
         echo color("nevy","?] Nomor : ");
         // $no = trim(fgets(STDIN));
         $nohp = trim(fgets(STDIN));
-        $nohp = str_replace("62","62",$nohp);
+        $nohp = str_replace("62","1",$nohp);
         $nohp = str_replace("(","",$nohp);
         $nohp = str_replace(")","",$nohp);
         $nohp = str_replace("-","",$nohp);
