@@ -1,12 +1,12 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red"," ===========================\n");
-echo color("red","| Claim Voucher Gojek|\n");
-echo color("red","| Auto create Gojek X Redeem voucher gofoood |\n");
-echo color("red","| github: Deni Irawan S T |\n");
-echo color("red","| fanspage :ganteng dan manis|\n");
-echo color("red","| Creator : deniirawan2502.com          |\n");
+echo color("purple"," ===========================\n");
+echo color("purple","| Claim Voucher Gojek|\n");
+echo color("purple","| Auto create Gojek X Redeem voucher gofoood |\n");
+echo color("purple","| github: Deni Irawan S T |\n");
+echo color("purple","| fanspage :ganteng dan manis|\n");
+echo color("purple","| Creator : deniirawan2502.com          |\n");
 echo "| Version : ini member jadi bayar kau ismail lee      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
