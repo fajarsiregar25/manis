@@ -7,7 +7,7 @@ echo color("red","| Auto create Gojek X Redeem voucher gofoood |\n");
 echo color("green","| github: Deni Irawan S T |\n");
 echo color("blue","| fanspage :ganteng dan manis|\n");
 echo color("yellow","| Creator : deniirawan2502.com          |\n");
-echo "| Version : ini member jadi bayar kau ismail lee      |\n";
+echo "| Kata sambutan : semoga vouchernya keluar bang ahmad husein      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
 
