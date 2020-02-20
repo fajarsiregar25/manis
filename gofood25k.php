@@ -95,7 +95,7 @@ echo " ===========================\n";
         echo "\n".color("green","+] Message: ".$messageboba19);
         goto goride;
         }else{
-        echo "\n".color("green","+] Message: ".$messageboba19);
+        echo "\n".color("purple","+] Message: ".$messageboba19);
         goride:
         echo "\n".color("blue","!] Claim voc GOFOOD021120A");
         echo "\n".color("yellow","!] Please wait");
@@ -106,7 +106,7 @@ echo " ===========================\n";
         sleep(3);
         $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD021120A"}');
         $message1 = fetch_value($goride,'"message":"','"');
-        echo "\n".color("green","+] Message: ".$message1);
+        echo "\n".color("red","+] Message: ".$message1);
         echo "\n".color("blue","!] Claim voc GOFOOD021120A");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
@@ -116,7 +116,7 @@ echo " ===========================\n";
         sleep(3);
         $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD021120A"}');
         $message2 = fetch_value($goride1,'"message":"','"');
-        echo "\n".color("green","+] Message: ".$message2);
+        echo "\n".color("red","+] Message: ".$message2);
         sleep(3);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=10&page=1', $token);
         $total = fetch_value($cekvoucher,'"total_vouchers":',',');
