@@ -20,5 +20,5 @@ git clone https://github.com/deniirawan2502/manis
 lalu masukan kode perintah untuk menjalankan script , kode ini untuk daftar dan claim voucher go food gojek
 cd manis
 
-php gofood25k.php
+php gofood2.php
 
